@@ -1,0 +1,78 @@
+{
+  "Registration.Verify Registration Page:Registration.Verify Registration Page#Enter Correct Username" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c3d201a67a0defec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625568882025,
+        "stop" : 1625568885995,
+        "duration" : 3970
+      }
+    } ]
+  },
+  "Registration1.Verify Registration1 Page:Registration1.Verify Registration1 Page#Enter Correct Username" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6ac2767cb2e8c1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1625568893465,
+        "stop" : 1625568901279,
+        "duration" : 7814
+      }
+    } ]
+  },
+  "Registration.Verify Registration Page:Registration.Verify Registration Page#Enter Incorrect Username" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ecb98f7f3a2e26d6",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1625568882025,
+        "stop" : 1625568882025,
+        "duration" : 0
+      }
+    } ]
+  },
+  "RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page:RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page#Enter Incorrect Username" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ffa3013080765e9",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1625568893480,
+        "stop" : 1625568893480,
+        "duration" : 0
+      }
+    } ]
+  }
+}

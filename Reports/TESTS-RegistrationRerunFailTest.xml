@@ -1,0 +1,11 @@
+<testsuite name="RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page" tests="1" errors="0" failures="0" skipped="1" time="0.0" timestamp="2021-07-06T16:30:01.194114" hostname="MSI"><testcase classname="RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page" name="Enter Incorrect Username" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Enter Incorrect Username
+    Given Launch application page ... skipped in 0.000s
+    When User enters "confirm password" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

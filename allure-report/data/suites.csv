@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 06 16:24:53 IST 2021","Tue Jul 06 16:25:01 IST 2021","7814","","Registration1.Verify Registration1 Page","","Registration1.Verify Registration1 Page","","Enter Correct Username",""
+"skipped","Tue Jul 06 16:24:42 IST 2021","Tue Jul 06 16:24:42 IST 2021","0","","Registration.Verify Registration Page","","Registration.Verify Registration Page","","Enter Incorrect Username",""
+"passed","Tue Jul 06 16:24:42 IST 2021","Tue Jul 06 16:24:45 IST 2021","3970","","Registration.Verify Registration Page","","Registration.Verify Registration Page","","Enter Correct Username",""
+"skipped","Tue Jul 06 16:24:53 IST 2021","Tue Jul 06 16:24:53 IST 2021","0","","RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page","","RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page","","Enter Incorrect Username",""

@@ -1,0 +1,6 @@
+2021-07-06 16:29:38,637 - enter_username - INFO - Enter Username
+2021-07-06 16:29:52,962 - enter_username - INFO - Enter Username
+2021-07-06 16:29:52,962 - enter_username - INFO - Enter Username
+2021-07-06 16:29:55,032 - enter_password - INFO - Enter Password
+2021-07-06 16:29:57,102 - enter_email - INFO - Enter Email
+2021-07-06 16:30:01,215 - after_all - INFO - Skip allure report try block

@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "e3bab1f69d45b89d1a9f2efdd0fd2e16",
+    "name" : "Registration.Verify Registration Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "fd6e01397767a0f1d19b96e9d4c31338",
+    "name" : "Registration1.Verify Registration1 Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "1de43a30c210b3850bb1cf7b46aa1c23",
+    "name" : "RegistrationRerunFailTest.Verify RegistrationRerunFailTest Page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

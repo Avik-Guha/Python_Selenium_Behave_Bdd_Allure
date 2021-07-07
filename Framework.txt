@@ -1,0 +1,13 @@
+*****Command to run test in this framework****
+<Allure Report>
+
+<Using folder name>
+behave Features -D environment=QA -D browser=Chrome -f allure -o Reports
+
+<Using tag>
+behave Features --tags=@Sanity -D environment=QA -D browser=Chrome -f allure -o .\Reports
+behave Features --tags=@Sanity -D environment=QA -D browser=Chrome --junit
+behave Features --tags=@Sanity -D environment=QA -D browser=Chrome -f json.pretty -o .\JsonResult\json_result.json
+
+<Using Feature file name>
+behave Features/Registration1.feature -D environment=QA -D browser=Chrome -f allure -o .\Reports

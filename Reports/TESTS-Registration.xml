@@ -1,0 +1,25 @@
+<testsuite name="Registration.Verify Registration Page" tests="2" errors="0" failures="0" skipped="1" time="3.678203" timestamp="2021-07-06T16:29:42.733289" hostname="MSI"><testcase classname="Registration.Verify Registration Page" name="Enter Correct Username" status="passed" time="3.678203"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Sanity
+  Scenario: Enter Correct Username
+    Given Launch application page ... passed in 1.602s
+    When User enters "username" ... passed in 2.077s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="Registration.Verify Registration Page" name="Enter Incorrect Username" status="skipped" time="0"><skipped /><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Regression
+  Scenario: Enter Incorrect Username
+    Given Launch application page ... skipped in 0.000s
+    When User enters "username" ... skipped in 0.000s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

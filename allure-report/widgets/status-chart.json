@@ -1,0 +1,41 @@
+[ {
+  "uid" : "e6ac2767cb2e8c1e",
+  "name" : "Enter Correct Username",
+  "time" : {
+    "start" : 1625568893465,
+    "stop" : 1625568901279,
+    "duration" : 7814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecb98f7f3a2e26d6",
+  "name" : "Enter Incorrect Username",
+  "time" : {
+    "start" : 1625568882025,
+    "stop" : 1625568882025,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c3d201a67a0defec",
+  "name" : "Enter Correct Username",
+  "time" : {
+    "start" : 1625568882025,
+    "stop" : 1625568885995,
+    "duration" : 3970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ffa3013080765e9",
+  "name" : "Enter Incorrect Username",
+  "time" : {
+    "start" : 1625568893480,
+    "stop" : 1625568893480,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+} ]

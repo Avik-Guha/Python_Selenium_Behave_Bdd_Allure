@@ -1,0 +1,15 @@
+<testsuite name="Registration1.Verify Registration1 Page" tests="1" errors="0" failures="0" skipped="0" time="14.922607" timestamp="2021-07-06T16:30:01.192110" hostname="MSI"><testcase classname="Registration1.Verify Registration1 Page" name="Enter Correct Username" status="passed" time="14.922607"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Sanity
+  Scenario: Enter Correct Username
+    Given Launch application page ... passed in 8.707s
+    When User enters "username" ... passed in 2.073s
+    And User enters "password" ... passed in 2.074s
+    And User enters "email" ... passed in 2.068s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
