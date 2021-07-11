@@ -6,6 +6,7 @@ This is a Web Automation Testing framework using:
     Python
     Behave BDD
     Allure reports
+    Page Object Model
 
 ## Installation
 
