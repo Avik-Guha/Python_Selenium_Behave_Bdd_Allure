@@ -1,7 +1,6 @@
 import inspect
 import time
 from selenium import webdriver
-# from selenium.webdriver import Chrome, Firefox
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.firefox import GeckoDriverManager
 from webdriver_manager.microsoft import IEDriverManager, EdgeChromiumDriverManager
@@ -12,17 +11,12 @@ def start_Browser_Driver(browser):
     global driver
 
     if str(browser) == "Chrome":
-        # chrome_driver_path = "Driver\\chromedriver.exe"
-        # driver = Chrome(executable_path=chrome_driver_path)
         driver = webdriver.Chrome(ChromeDriverManager().install())
     elif str(browser) == "ChromeHeadless":
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--headless")
-        # driver = webdriver.Chrome(options=chrome_options)
         driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
     elif str(browser) == "Firefox":
-        # firefox_driver_path = "Driver\\geckodriver.exe"
-        # driver = Firefox(executable_path=firefox_driver_path)
         driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
     elif str(browser) == "IE":
         driver = webdriver.Ie(IEDriverManager().install())
